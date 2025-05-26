@@ -1,10 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; /* Moderadamente gruesa */
+}
+
+h1{
+    margin-left: 20px;
+    color: #d7e4e0;
+}
+
+header{
+    background-color: #587068;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 body {
-    background-image: url('images/fondo2.jpg'); /* Especifica la imagen de fondo */
-    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-image: url('images/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    color: #587068;
 }
 
 img{
-    width: 400px;
+    float: left;
+    margin-right: 40px;
+    padding-left: 20px;
+    width: 24%;
+}
+
+article{
+    margin-right: 20px;
+}
+
+.skills, .classes{
+    margin-left: 20px;
+}
+
+footer{
+    margin-left: 20px;
+    font-size: 12px;
 }
